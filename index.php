@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Texting.ph</title>
-        <link rel="shortcut icon" href="assets/dist/img/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/dist/img/favicon.ico" type="image/x-icon">
         <script src="../ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
