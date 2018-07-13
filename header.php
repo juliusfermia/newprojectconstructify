@@ -8,7 +8,7 @@
 					</span>
 					<span class="logo-lg">
 						<!--<b>Admin</b>H-admin-->
-						<img src="assets/dist/img/logo.png" alt="img">
+						<img src="assets/dist/img/logo.png" alt="img" width=170>
 					</span>
 				</a>
 				<!-- Header Navbar -->
@@ -243,7 +243,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-pencil-alt"></i> <span>Forms</span>
+									<i class="ti-pencil-alt"></i><span>Forms</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -276,7 +276,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-notepad"></i> <span>Table</span>
+									<i class="ti-notepad"></i><span>Table</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -290,7 +290,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="fa fa-sort-alpha-desc"></i> <span>UI Elements</span>
+									<i class="fa fa-sort-alpha-desc"></i><span>UI Elements</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -311,7 +311,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="fa fa-bar-chart"></i> <span>Charts</span>
+									<i class="fa fa-bar-chart"></i><span>Charts</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -326,7 +326,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="fa fa-font-awesome"></i> <span>Icons</span>
+									<i class="fa fa-font-awesome"></i><span>Icons</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -344,7 +344,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-location-pin"></i> <span>Maps</span>
+									<i class="ti-location-pin"></i><span>Maps</span>
 									<span class="pull-right-container">
 										<i class="fa fa-angle-left pull-right"></i>
 									</span>
@@ -359,7 +359,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-email"></i> <span>Mailbox</span>	
+									<i class="ti-email"></i><span>Mailbox</span>	
 									<span class="pull-right-container">	 
 										<i class="fa fa-angle-left pull-right"></i>	
 									</span>
@@ -372,7 +372,7 @@
 							</li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-mobile"></i> <span>App View</span>	
+									<i class="ti-mobile"></i><span>App View</span>	
 									<span class="pull-right-container">	 
 										<i class="fa fa-angle-left pull-right"></i>	
 									</span>
@@ -409,7 +409,7 @@
 							<li><a href="blank.html"><i class="fa fa-file-o"></i>Blank Page</a></li>
 							<li class="treeview">
 								<a href="#">
-									<i class="ti-direction-alt"></i> <span>Multilevel</span>
+									<i class="ti-direction-alt"></i><span>Multilevel</span>
 									<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
 								</a>
 								<ul class="treeview-menu">

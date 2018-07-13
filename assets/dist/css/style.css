@@ -40,7 +40,7 @@ html, body {
 body{
 	overflow-x: hidden;
 	overflow-y: auto;
-	color: #374767;
+	color: #003366; /*JMF #374767*/
 	font-weight: 500;
 	font-size: 13px;
 	background: rgb(250,250,250);
@@ -83,7 +83,7 @@ body{
 } 
 
 code{
-	color: #505050;
+	color: #003366; /*JMF 505050*/
 	background: transparent;
 	padding: 1px 3px;
 	border-radius: 5px;
@@ -122,7 +122,7 @@ code{
 .main-footer {
 	background: #fff;
 	padding: 15px 30px;
-	color: #444;
+	color: #003366; /*JMF 444*/
 	-webkit-box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
 	-moz-box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
 	box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
@@ -140,7 +140,7 @@ code{
 	top: 0;
 	right: 0;
 	left: 0;
-	background: #10595f;
+	background: #fff;  /*JMF #10595f*/
 }
 
 .fixed .content-wrapper,
@@ -180,32 +180,32 @@ body.hold-transition .main-header .logo {
 }
 
 ::-moz-selection {
-	color: #fff;
-	background: #10585f;
+	color: #003366; /*JMF fff*/
+	background: #fff; /*JMF 10585f*/
 	text-shadow: none;
 }
 
 ::selection {
-	color: #fff;
-	background: #10585f;
+	color: #003366; /*JMF fff*/
+	background: #fff; /*JMF 10585f*/
 	text-shadow: none;
 }
 
 /* General Links */
-a {color: #10585f; text-decoration: none;}
+a {color: #003366; text-decoration: none;} /*JMF 10585f*/
 a:hover,
 a:active,
 a:focus {
 	outline: none;
 	text-decoration: none;
-	color: #72afd2;
-	-webkit-transition: all .3s;
-	transition: all .3s;
+	color: #405a74; /*JMF 72afd2*/
+	-webkit-transition: all .1s;
+	transition: all .1s;
 }
 
 /*------------color------------*/
-.color-green {color: #10585f !important;}
-.bg-green {background: #10585f !important;}
+.color-green {color: #003366 !important;} /*JMF 10585f*/
+.bg-green {background: #003366 !important;} /*JMF 10585f*/
 .bg-yellow {background: #FFB61E !important;}
 
 /*------- Material Ripple effect ---------*/
@@ -408,8 +408,8 @@ a:focus {
 	z-index: 10;
 }
 .back-top {
-	background: #10585f;
-	border: #10585f;
+	background: #003366; /*JMF 10585f*/
+	border: #003366; /*JMF 10585f*/
 	padding: 6px 7px;
 	height: 30px;
 	width: 30px;
@@ -434,7 +434,7 @@ a:focus {
 	position: relative;
 	max-height: 120px;
 	z-index: 1030;
-	background: #10595f;
+	background: #fff; /*JMF #10595f*/
 }
 
 .main-header .navbar{
@@ -444,8 +444,8 @@ a:focus {
 	min-height: 72px;
 	border-radius: 0;
 	border-bottom: 0;
-	-webkit-transition: margin-left 0.3s ease-in-out;
-	transition: margin-left 0.3s ease-in-out;
+	-webkit-transition: margin-left 0.1s ease-in-out;
+	transition: margin-left 0.1s ease-in-out;
 	z-index: 0;
 }
 
@@ -474,7 +474,7 @@ a:focus {
 }
 .main-header .sidebar-toggle {
 	background-image: none;
-	color: #fff;
+	color: #003366; /*JMF #fff*/
 	font-size: 17px;
 	margin-right: 0;
 	text-align: center;
@@ -511,7 +511,7 @@ a:focus {
 }
 
 .main-header .navbar .nav > li > a > .label {
-	border: 2px solid #fff;
+	border: 2px solid #003366; /*JMF #fff*/
 	position: absolute;
 	top: 2px;
 	right: -3px;
@@ -533,11 +533,11 @@ a:focus {
 	width: 180px;
 	font-weight: 300;
 	overflow: hidden;
-	background: #025d65;
+	background: #fff; /*JMF #025d65 */
 	padding-left: 0;
-	color: #fff;
-	-webkit-transition: width 0.3s ease-in-out;
-	transition: width 0.3s ease-in-out;
+	color: #003366; /*JMF #fff */
+	-webkit-transition: width 0.1s ease-in-out;
+	transition: width 0.1s ease-in-out;
 }
 
 .main-header .logo .logo-mini {
@@ -596,7 +596,7 @@ a:focus {
 }
 
 .main-header .navbar-brand {
-	color: #fff;
+	color: #003366; /*JMF #fff*/
 }
 
 .content-header {
@@ -611,7 +611,7 @@ a:focus {
 
 .content-header .header-icon {
 	font-size: 55px;
-	color: #223f4a;
+	color: #1f3953; /*JMF 223f4a*/
 	width: 68px;
 	float: left;
 	margin-top: -4px;
@@ -632,7 +632,7 @@ a:focus {
 	display: inline-block;
 	padding-left: 4px;
 	font-weight: 600;
-	color: #7a7a7a;
+	color: #003366; /*JMF 7a7a7a*/
 }
 
 .header-title .breadcrumb {
@@ -730,7 +730,7 @@ a:focus {
 }
 
 .navbar-toggle {
-	color: #fff;
+	color: #003366; /*JMF fff*/
 	border: 0;
 	margin: 0;
 	padding: 15px 15px;
@@ -841,7 +841,7 @@ a:focus {
 
 .sidebar-menu > li > a {
 	display: block;
-	color: #6a6c6f;
+	color: #003366; /*JMF 6a6c6f*/
 	position: relative;
 	font-size: 13px;
 	font-weight: 600;
@@ -911,7 +911,7 @@ a:focus {
 }
 .sidebar-menu .treeview-menu > li > a {
 	display: block;
-	color: #6a6c6f;
+	color: #003366; /*JMF 6a6c6f*/
 	padding: 10px 10px 10px 35px;
 	font-size: 13px;
 	font-weight: 600;
@@ -930,7 +930,7 @@ a:focus {
 .sidebar-menu .treeview-menu > li.active > a,
 .sidebar-menu .treeview-menu > li:hover > a, .sidebar-menu > li:hover > a,
 .sidebar-menu > li.active > a {
-	background: #10595f;
+	background: #003366; /*JMF #10595f*/
 	color: #fff !important;
 }
 
