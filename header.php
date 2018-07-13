@@ -197,7 +197,7 @@
 									</div>
 									<div class="message-footer">
 										<a href="#">see all messages<i class="fa fa-long-arrow-right"></i></a>
-									 </div>
+									</div>
 								</div>
 							</li>
 							<li class="dropdown dropdown-settings">

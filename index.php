@@ -6,8 +6,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Adminpix</title>
-		<link rel="shortcut icon" href="assets/dist/img/favicon.png" type="image/x-icon">
+		<title>Constructify.ph</title>
+		<link rel="shortcut icon" href="assets/dist/img/favicon.ico" type="image/x-icon">
 		<script src="assets/plugins/ajax.googleapis.com/webfont.js"></script>
 		<script>
 			WebFont.load({

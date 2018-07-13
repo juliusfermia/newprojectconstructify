@@ -43,7 +43,7 @@ body{
 	color: #003366; /*JMF #374767*/
 	font-weight: 500;
 	font-size: 13px;
-	background: rgb(250,250,250);
+	background: rgb(128, 128, 128);
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -120,9 +120,9 @@ code{
 	padding: 0 30px 30px;
 }
 .main-footer {
-	background: #fff;
+	background: #003366; /*JMF fff*/
 	padding: 15px 30px;
-	color: #003366; /*JMF 444*/
+	color: #fff; /*JMF 444*/
 	-webkit-box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
 	-moz-box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
 	box-shadow: -2px -8px 41px -14px rgba(202,210,222,.61);
@@ -140,7 +140,7 @@ code{
 	top: 0;
 	right: 0;
 	left: 0;
-	background: #fff;  /*JMF #10595f*/
+	background: linear-gradient(-90deg, rgb(190,190,190), rgb(230, 230, 230));  /*JMF #10595f*/
 }
 
 .fixed .content-wrapper,
@@ -434,7 +434,7 @@ a:focus {
 	position: relative;
 	max-height: 120px;
 	z-index: 1030;
-	background: #fff; /*JMF #10595f*/
+	background: transparent; /*JMF #10595f*/
 }
 
 .main-header .navbar{
@@ -533,7 +533,7 @@ a:focus {
 	width: 180px;
 	font-weight: 300;
 	overflow: hidden;
-	background: #fff; /*JMF #025d65 */
+	background: transparent; /*JMF #025d65 */
 	padding-left: 0;
 	color: #003366; /*JMF #fff */
 	-webkit-transition: width 0.1s ease-in-out;
@@ -710,10 +710,11 @@ a:focus {
 	padding: 8px 10px;
 	position: relative;
 }
-.navbar-custom-menu .navbar-nav > li > a > i {
-	color: #fff;
+.navbar-custom-menu .navbar-nav > li > a, button > i {
+	color: #003366; /*JMF fff*/
 	font-size: 15px;
 }
+
 
 @media (max-width: 991px) {
 	.header-title .breadcrumb {
@@ -781,13 +782,13 @@ a:focus {
 	margin-top: 77px;
 	min-height: 100%;
 	width: 180px;
-	z-index: 810;
+	z-index: 0;
 	-webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out;
 	-webkit-transition: width 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 	transition: width 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 	transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
 	transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-	background: #fff;
+	background: rgb(230, 230, 230);
 	box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -833,16 +834,16 @@ a:focus {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	border-bottom: 1px solid #eaeaea;
+	border-bottom: 2px solid #83838318;/*JMF eaeaea*/
 }
 .sidebar-menu li:first-child {
-	border-top: 1px solid #d0d0d0;
+	border-top: none; /*JMF 2px 77787c*/
 }
 
 .sidebar-menu > li > a {
 	display: block;
 	color: #003366; /*JMF 6a6c6f*/
-	position: relative;
+	
 	font-size: 13px;
 	font-weight: 600;
 	letter-spacing: 0.3px;
@@ -915,7 +916,7 @@ a:focus {
 	padding: 10px 10px 10px 35px;
 	font-size: 13px;
 	font-weight: 600;
-	background: #fff;
+	background: rgb(208, 231, 202);
 }
 .sidebar-menu .treeview-menu li .treeview-menu li a {
 	padding-left: 50px;
@@ -954,13 +955,13 @@ a:focus {
 	.sidebar-mini.sidebar-collapse .right-side,
 	.sidebar-mini.sidebar-collapse .main-footer {
 		margin-left: 50px !important;
-		z-index: 840;
+		z-index: 0;
 	}
 	.sidebar-mini.sidebar-collapse .main-sidebar {
 		-webkit-transform: translate(0, 0);
 		transform: translate(0, 0);
 		width: 50px !important;
-		z-index: 850;
+		z-index: 0;
 	}
 	.sidebar-mini.sidebar-collapse .sidebar-menu > li {
 		position: relative;
@@ -1073,7 +1074,7 @@ a:focus {
 	position: absolute;
 	top: -7px;
 	left: 155px;
-	z-index: 10;
+	z-index: 99999;
 }
 .dropdown-settings .dropdown-menu::before {
 	left: 140px;
@@ -1113,7 +1114,7 @@ a:focus {
 .dropdown-settings > .dropdown-menu.notification-box {left: -210px; top: 54px;}
 .dropdown-settings > .dropdown-menu.msg_box {
 	left: -230px;
-	width: 300px;
+	width: 270px;
 	top: 54px;
 }
 
@@ -1124,7 +1125,7 @@ a:focus {
 		background: #fff;
 		box-shadow: 0 0 0 1px rgba(53, 54, 60, 0.1), 0 2px 6px 1px rgba(0, 0, 0, 0.5);
 		-webkit-box-shadow: 0 0 0 1px rgba(53, 54, 60, 0.1), 0 2px 6px 1px rgba(0, 0, 0, 0.5);
-		z-index: 2;
+		z-index: 99999;
 	}
 	.dropdown-settings > .dropdown-menu.msg_box{
 		left: -180px;
@@ -1183,9 +1184,10 @@ small, .small {
 	padding: 0;
 }
 .navbar-form .form-control {
+	color: #003366; /*JMF*/
 	border: 0;
 	width: 160px !important;
-	-webkit-transition: width .2s;
+	-webkit-transition: width 0.2s;
 	height: 22px;
 	border-radius: 0px;
 	font-size: 13px;
@@ -1193,7 +1195,7 @@ small, .small {
 	box-shadow: none;
 }
 .navbar-form .form-control:focus{
-	width:180px !important;
+	width:250px !important;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -1597,7 +1599,7 @@ small, .small {
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	z-index: 9999;
+	z-index: 0;
 	background-color: #ffffff;
 	background-position: center center;
 	background-repeat: no-repeat;
