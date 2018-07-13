@@ -1,4 +1,5 @@
 {
+  "editor.insertSpaces": false,  
   "editor.tabSize": 2,
   "php.validate.executablePath": "C:\\PHP\\php.exe",
   "php.executablePath": "C:\\PHP\\php.exe",
