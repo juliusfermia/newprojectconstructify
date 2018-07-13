@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from adminpix.thememinister.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jul 2018 10:21:37 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Texting.ph</title>
-        <link rel="shortcut icon" href="assets/dist/img/favicon.ico" type="image/x-icon">
+        <title>Adminpix</title>
+        <link rel="shortcut icon" href="assets/dist/img/favicon.png" type="image/x-icon">
         <script src="../ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
@@ -21,10 +20,7 @@
         <!-- START GLOBAL MANDATORY STYLE -->
         <link href="assets/dist/css/base.css" rel="stylesheet" type="text/css">
         <!-- START PAGE LABEL PLUGINS --> 
-        <link href="assets/plugins/toastr/toastr.min.css" rel=stylesheet type="text/css"/>
-        <link href="assets/plugins/emojionearea/emojionearea.min.css" rel=stylesheet type="text/css"/>
-        <link href="assets/plugins/monthly/monthly.min.css" rel=stylesheet type="text/css"/>
-        <link href="assets/plugins/amcharts/export.css" rel=stylesheet type="text/css"/>
+
         <!-- START THEME LAYOUT STYLE -->
         <link href="assets/dist/css/style.css" rel="stylesheet" type="text/css"/>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,7 +34,7 @@
         
         <!-- Preloader -->
         <div class="preloader"></div>
-       
+        
         <!-- Site wrapper -->
         <div class="wrapper">
             <header class="main-header"> 
@@ -56,7 +52,7 @@
                 <nav class="navbar navbar-static-top">
                     <a href="#" class="sidebar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" role="button"> <!-- Sidebar toggle button-->
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="ti-menu-alt"></span>
+                        <span class="ti-menu-alt"></span> 
                     </a>
                     <div class="navbar-custom-menu">
                         <ul class="nav navbar-nav">
@@ -264,13 +260,12 @@
                         </ul>
                     </div>
                 </nav>
-                <!-- Tab panes -->
                 <aside class="main-sidebar">
                     <!-- sidebar -->
                     <div class="sidebar">
                         <!-- sidebar menu -->
                         <ul class="sidebar-menu">
-                            <li class="treeview active">
+                            <li class="treeview">
                                 <a href="index-2.html">
                                     <i class="ti-home"></i><span>Dashboard</span>
                                     <span class="pull-right-container">
@@ -278,7 +273,7 @@
                                     </span>
                                 </a>
                                 <ul class="treeview-menu">
-                                    <li class="active"><a href="index-2.html">Dashboard One</a></li>
+                                    <li><a href="index-2.html">Dashboard One</a></li>
                                     <li><a href="index2.html">Dashboard Two</a></li>
                                     <li><a href="index3.html">Dashboard Three</a></li>
                                 </ul>
@@ -393,7 +388,6 @@
                                 </a>
                                 <ul class="treeview-menu">
                                     <li><a href="maps_amcharts.html">Amcharts Maps</a></li>
-                                    <li><a href="maps_gmaps.html">Maps Gmaps</a></li>
                                     <li><a href="maps_data.html">Data Maps</a></li>
                                     <li><a href="maps_jvector.html">Jvector Maps</a></li>
                                     <li><a href="maps_google.html">Google map</a></li>
@@ -485,493 +479,25 @@
             <div class="content-wrapper">
                 <!-- Main content -->
                 <div class="content">
-                    <div class="row home1_analys">
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                            <div class="statistic-box">
-                                <div class=small>Happy Customers </div>
-                                <h2><span class=count-number>85</span>K <span class=slight><i class="fa fa-play fa-rotate-270 text-warning"> </i> +29%</span></h2>
-                                <div class="progress-radial blue">
-                                    <span class="progress-left">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <span class="progress-right">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <div class="progress-value">95%</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                            <div class="statistic-box">
-                                <div class=small>Total page views</div>
-                                <h2><span class=count-number>321</span>M <span class=slight><i class="fa fa-play fa-rotate-90 c-white"> </i> +10%</span> </h2>
-                                <div class="progress-radial yellow">
-                                    <span class="progress-left">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <span class="progress-right">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <div class="progress-value">75%</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
-                            <div class="statistic-box">
-                                <div class=small>Total Sales</div>
-                                <h2><span class=count-number>5489</span>$ <span class=slight><i class="fa fa-play fa-rotate-90 c-white"> </i> +24%</span></h2>
-                                <div class="progress-radial pink">
-                                    <span class="progress-left">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <span class="progress-right">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <div class="progress-value">60%</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 hidden-sm hidden-md col-lg-3">
-                            <div class="statistic-box">
-                                <div class=small>Visitors online</div>
-                                <h2><span class=count-number>696</span>K <span class=slight><i class="fa fa-play fa-rotate-270 text-warning"> </i> +28%</span></h2>
-                                <div class="progress-radial green">
-                                    <span class="progress-left">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <span class="progress-right">
-                                        <span class="progress-bar"></span>
-                                    </span>
-                                    <div class="progress-value">85%</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 col-lg-8 hidden-520">
-                            <div class="panel panel-bd lobidrag">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-panel></i>
-                                        <h4>CSS animations Chart</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <div id=chartdiv2></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-4 res_400">
-                            <div class="panel panel-bd lobidisable">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-email></i>
-                                        <h4>Messages</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <div class=message_inner>
-                                        <div class=message_widgets>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Farzana Yasmin</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status available pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar2.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Mubin Khan</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status away pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar3.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Mozammel Hoque</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status busy pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar4.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Tanzil Ahmed</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status offline pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar5.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Amir Khan</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status available pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Salman Khan</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status available pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Farzana Yasmin</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status available pull-right"></span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class=inbox-item>
-                                                    <div class=inbox-item-img><img src="assets/dist/img/avatar4.png" class=img-circle alt=""></div>
-                                                    <strong class=inbox-item-author>Tanzil Ahmed</strong>
-                                                    <span class=inbox-item-date>-13:40 PM</span>
-                                                    <p class=inbox-item-text>Hey! there I'm available...</p>
-                                                    <span class="profile-status offline pull-right"></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="panel panel-bd lobidrag">
-                                <div class="panel-heading">
-                                    <div class="panel-title">
-                                        <h4>Zero configuration</h4>
-                                    </div>
-                                </div>
-                                <div class="panel-body">
-                                    <p class="m-b-15">All you need to do to use it with your own tables is to call the construction function:
-                                        <code>$().DataTable();</code>.</p>
-                                    <div class="table-responsive">
-                                        <table id="dataTableExample1" class="table table-bordered table-striped table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>Name</th>
-                                                    <th>Position</th>
-                                                    <th>Office</th>
-                                                    <th>Age</th>
-                                                    <th>Start date</th>
-                                                    <th>Salary</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Tiger Nixon</td>
-                                                    <td>System Architect</td>
-                                                    <td>Edinburgh</td>
-                                                    <td>61</td>
-                                                    <td>2011/04/25</td>
-                                                    <td>$320,800</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Garrett Winters</td>
-                                                    <td>Accountant</td>
-                                                    <td>Tokyo</td>
-                                                    <td>63</td>
-                                                    <td>2011/07/25</td>
-                                                    <td>$170,750</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Ashton Cox</td>
-                                                    <td>Junior Technical Author</td>
-                                                    <td>San Francisco</td>
-                                                    <td>66</td>
-                                                    <td>2009/01/12</td>
-                                                    <td>$86,000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Cedric Kelly</td>
-                                                    <td>Senior Javascript Developer</td>
-                                                    <td>Edinburgh</td>
-                                                    <td>22</td>
-                                                    <td>2012/03/29</td>
-                                                    <td>$433,060</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Airi Satou</td>
-                                                    <td>Accountant</td>
-                                                    <td>Tokyo</td>
-                                                    <td>33</td>
-                                                    <td>2008/11/28</td>
-                                                    <td>$162,700</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Brielle Williamson</td>
-                                                    <td>Integration Specialist</td>
-                                                    <td>New York</td>
-                                                    <td>61</td>
-                                                    <td>2012/12/02</td>
-                                                    <td>$372,000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Abdullah</td>
-                                                    <td>Most Specific</td>
-                                                    <td>NewZealand</td>
-                                                    <td>91</td>
-                                                    <td>2014/12/04</td>
-                                                    <td>$485,000</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 visible-lg">
-                            <div class="panel panel-bd lobidisable">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-stats-up></i>
-                                        <h4>Recent Activities</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <ul class="activity-list list-unstyled">
-                                        <li class=activity-purple>
-                                            <small class=text-muted>9 minutes ago</small>
-                                            <p>You <span class="label label-success label-pill">recommended</span> Karen Ortega</p>
-                                        </li>
-                                        <li class=activity-danger>
-                                            <small class=text-muted>15 minutes ago</small>
-                                            <p>You followed Olivia Williamson</p>
-                                        </li>
-                                        <li class=activity-warning>
-                                            <small class=text-muted>22 minutes ago</small>
-                                            <p>You <span class=text-danger>subscribed</span> to Harold Fuller</p>
-                                        </li>
-                                        <li class=activity-primary>
-                                            <small class=text-muted>30 minutes ago</small>
-                                            <p>You updated your profile picture</p>
-                                        </li>
-                                        <li>
-                                            <small class=text-muted>35 minutes ago</small>
-                                            <p>You deleted homepage.psd</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-xs-6 full-630">
-                            <div class="panel panel-bd lobidisable lg-mb0">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-user></i>
-                                        <h4>Chat</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <ul class=chat_list>
-                                        <li class=clearfix>
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar4.png" alt=male>
-                                                <i>10:00</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>John Deo</i>
-                                                    <p>Hello! ✋</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar5.png" alt=Female>
-                                                <i>10:01</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>Marco Lopes</i>
-                                                    <p>Hi, How are you?☺ What about our next meeting?😼</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class=clearfix>
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar4.png" alt=male>
-                                                <i>10:01</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>John Deo</i>
-                                                    <p>Yeah everything is fine 👍</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar5.png" alt=male>
-                                                <i>10:02</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>Marco Lopes</i>
-                                                    <p>Wow that's great 👏</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class=clearfix>
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar4.png" alt=male>
-                                                <i>10:03</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>John Deo</i>
-                                                    <p>What can you do with HTML VIEWER ?</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar5.png" alt=male>
-                                                <i>10:04</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>Marco Lopes</i>
-                                                    <p>It helps to beautify/format your HTML.</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar5.png" alt=male>
-                                                <i>10:04</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <i>Marco Lopes</i>
-                                                    <p>It helps to save and share HTML content and show the HTML output</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class=clearfix>
-                                            <div class=chat-avatar>
-                                                <img src="assets/dist/img/avatar4.png" alt=male>
-                                                <i>10:05</i>
-                                            </div>
-                                            <div class=conversation-text>
-                                                <div class=ctext-wrap>
-                                                    <img src="assets/dist/img/1f600.png" alt="">
-                                                    <img src="assets/dist/img/1f60e.png" alt="">
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class=panel-footer>
-                                    <div class=input-group>
-                                        <input class="form-control emojionearea" placeholder="Your Message. . . ">
-                                        <span class=input-group-btn>
-                                            <button class="btn btn-base" type=button>Send</button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-xs-6 full-630">
-                            <div class="panel panel-bd lobidisable lg-mb0">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-pie-chart></i>
-                                        <h4>Colors Pie Chart</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <div id=chartPie></div>
-                                    <div class=chart-legend>
-                                        <div class=chart-legend-item>
-                                            <div class="chart-legend-color red"></div>
-                                            <p>From Google</p>
-                                            <p class=percentage>63.259 %</p>
-                                        </div>
-                                        <div class=chart-legend-item>
-                                            <div class="chart-legend-color blue"></div>
-                                            <p>Your Website</p>
-                                            <p class=percentage>25.321 %</p>
-                                        </div>
-                                        <div class=chart-legend-item>
-                                            <div class="chart-legend-color green"></div>
-                                            <p>Other Search Engines</p>
-                                            <p class=percentage>11.42 %</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 visible-lg">
-                            <div class="panel panel-bd lobidisable lg-mb0">
-                                <div class=panel-heading>
-                                    <div class=panel-title>
-                                        <i class=ti-archive></i>
-                                        <h4>Calender</h4>
-                                    </div>
-                                </div>
-                                <div class=panel-body>
-                                    <div class=monthly_calender>
-                                        <div class=monthly id=m_calendar></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <footer class="main-footer">
-                <div class="pull-right hidden-xs">AdminPix</div>
+                <div class="pull-right hidden-xs">Adminpix</div>
                 <strong>Copyright &copy; 2018</strong> All rights reserved. <i class="fa fa-heart color-green"></i>
             </footer>
         </div> <!-- ./wrapper -->
         <!-- START CORE PLUGINS -->
-         <script src="assets/plugins/jQuery/jquery-1.12.4.min.js"></script>
+        <script src="assets/plugins/jQuery/jquery-1.12.4.min.js"></script>
         <script src="assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/plugins/fastclick/fastclick.min.js"></script>
         <script src="assets/plugins/metisMenu/metisMenu.min.js"></script>
         <script src="assets/plugins/lobipanel/lobipanel.min.js"></script>
-        <script src="assets/plugins/fastclick/fastclick.min.js"></script>
-        <script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-        <!-- sparkline Js -->
-        <script src="assets/plugins/sparkline/sparkline.min.js"></script>
-        <!-- counterup Js -->
-        <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
-        <script src="assets/plugins/counterup/waypoints.js"></script>
-        <!-- emojionearea Js -->
-        <script src="assets/plugins/emojionearea/emojionearea.min.js"></script>
-        <script src="assets/plugins/monthly/monthly.min.js"></script>
-        <!-- amcharts Js -->
-        <script src="assets/plugins/amcharts/amcharts.js"></script>
-        <script src="assets/plugins/amcharts/ammap.js"></script>
-        <script src="assets/plugins/amcharts/worldLow.js"></script>
-        <script src="assets/plugins/amcharts/serial.js"></script>
-        <script src="assets/plugins/amcharts/export.min.js"></script>
-        <script src="assets/plugins/amcharts/light.js"></script>
-        <script src="assets/plugins/amcharts/pie.js"></script>
         <!-- START THEME LABEL SCRIPT -->
-        <script src="assets/dist/js/page/dashboard.js"></script>
         <script src="assets/dist/js/theme.js"></script>
-
     </body>
 
-<!-- Mirrored from adminpix.thememinister.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jul 2018 10:23:02 GMT -->
+<!-- Mirrored from adminpix.thememinister.com/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jul 2018 10:26:38 GMT -->
 </html>
