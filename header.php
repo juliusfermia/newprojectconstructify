@@ -236,8 +236,8 @@
 									</span>
 								</a>
 								<ul class="treeview-menu">
-									<li><a href="index-2.html">Dashboard One</a></li>
-									<li><a href="index2.html">Dashboard Two</a></li>
+									<li><a href="">Dashboard One</a></li>
+									<li><a href="dashboard.php">Dashboard Two</a></li>
 									<li><a href="index3.html">Dashboard Three</a></li>
 								</ul>
 							</li>
