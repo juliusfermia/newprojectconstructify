@@ -9,7 +9,7 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Texting.ph</title>
 		<link rel="shortcut icon" href="assets/dist/img/favicon.ico" type="image/x-icon">
-		<script src="../ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script src="assets/plugins/ajax.googleapis.com/webfont.js"></script>
 		<script>
 			WebFont.load({
 				google: {families: ['Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i']},
@@ -51,7 +51,7 @@
 					</span>
 					<span class="logo-lg">
 						<!--<b>Admin</b>H-admin-->
-						<img src="assets/dist/img/logo.png" alt="img">
+						<img src="assets/dist/img/logo.png" alt="img" width=170>
 					</span>
 				</a>
 				<!-- Header Navbar -->
@@ -484,6 +484,7 @@
 				</aside>
 			</header>
 			<!-- Content Wrapper. Contains page content -->
+			<div class="preloader"></div>
 			<div class="content-wrapper">
 				<!-- Main content -->
 				<div class="content">

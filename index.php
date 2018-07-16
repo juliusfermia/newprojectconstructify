@@ -43,13 +43,27 @@
 	</head>
 	<body class="hold-transition fixed sidebar-mini">
 		
-		<!-- Preloader -->
-		<div class="preloader"></div>
+		<!-- Site wrapper -->
+		<div class="wrapper">
 		
-		<?php
-			include "header.php";
-		?>
-		
+			<!-- Content Wrapper. Contains page content -->
+			<?php
+				include "header.php";
+			?>
+
+			<!-- Content Wrapper. Contains page content -->
+			<div class="content-wrapper">
+				<!-- Main content -->
+				<div class="content">
+					<!-- Preloader -->
+					<div class="preloader"></div>
+				</div>
+			</div>
+
+			<?php
+				include "footer.php";
+			?>
+		</div> <!-- ./wrapper -->
 		<!-- START CORE PLUGINS -->
 		<script src="assets/plugins/jQuery/jquery-1.12.4.min.js"></script>
 		<script src="assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js"></script>
