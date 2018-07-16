@@ -20,7 +20,11 @@
 		<!-- START GLOBAL MANDATORY STYLE -->
 		<link href="assets/dist/css/base.css" rel="stylesheet" type="text/css">
 		<!-- START PAGE LABEL PLUGINS --> 
-
+		<link href="assets/plugins/toastr/toastr.min.css" rel=stylesheet type="text/css"/>
+		<link href="assets/plugins/emojionearea/emojionearea.min.css" rel=stylesheet type="text/css"/>
+		<link href="assets/plugins/monthly/monthly.min.css" rel=stylesheet type="text/css"/>
+		<link href="assets/plugins/amcharts/export.css" rel=stylesheet type="text/css"/>
+		
 		<!-- START THEME LAYOUT STYLE -->
 		<link href="assets/dist/css/style.css" rel="stylesheet" type="text/css"/>
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,8 +59,10 @@
 			<div class="content-wrapper">
 				<!-- Main content -->
 				<div class="content">
-					<!-- Preloader -->
 					<div class="preloader"></div>
+					<?php
+						include "dashboard.php";
+					?>
 				</div>
 			</div>
 
@@ -64,16 +70,7 @@
 				include "footer.php";
 			?>
 		</div> <!-- ./wrapper -->
-		<!-- START CORE PLUGINS -->
-		<script src="assets/plugins/jQuery/jquery-1.12.4.min.js"></script>
-		<script src="assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-		<script src="assets/plugins/fastclick/fastclick.min.js"></script>
-		<script src="assets/plugins/metisMenu/metisMenu.min.js"></script>
-		<script src="assets/plugins/lobipanel/lobipanel.min.js"></script>
-		<!-- START THEME LABEL SCRIPT -->
-		<script src="assets/dist/js/theme.js"></script>
+
 	</body>
 
 <!-- Mirrored from adminpix.thememinister.com/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jul 2018 10:26:38 GMT -->

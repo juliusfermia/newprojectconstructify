@@ -1,8 +1,7 @@
 <header class="main-header"> 
 	<a href="index.php" class="logo"> <!-- Logo -->
 		<span class="logo-lg">
-			<!-- <b>Admin</b>H-admin -->
-			<img src="assets/dist/img/logo.png" alt="img" width="170">
+			<img src="assets/dist/img/logo.png" alt="img">
 		</span>
 	</a>
 	<!-- Header Navbar -->
@@ -11,14 +10,6 @@
 			<span class="sr-only">Toggle navigation</span>
 			<span class="ti-menu-alt"></span>
 		</a>
-		<div class="menu-tab">
-			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="material-ripple">Home</a></li>
-				<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="material-ripple">Profile</a></li>
-				<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="material-ripple">Messages</a></li>
-				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" class="material-ripple">Settings</a></li>
-			</ul>
-		</div>
 		<div class="navbar-custom-menu">
 			<ul class="nav navbar-nav">
 				<li class="hidden-sm hidden-xs">
@@ -230,16 +221,18 @@
 				</li>
 			</ul>
 		</div>
+		<div class="menu-tab">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="material-ripple">Home</a></li>
+				<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="material-ripple">Profile</a></li>
+				<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="material-ripple">Messages</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" class="material-ripple">Settings</a></li>
+			</ul>
+		</div>
 	</nav>
 	<!-- Tab panes -->
 	<div class="tab-content">
 		<div role="tabpanel" class="tab-pane active" id="home">
-			<ol class="breadcrumb hidden-xs">
-				<li><a href="#">Superadmin</a></li>
-				<li><a href="#">Manage</a></li>
-				<li><a href="#">Site Manage</a></li>
-				<li class="active">Util Objects</li>
-			</ol>
 			<aside class="main-sidebar">
 				<!-- sidebar -->
 				<div class="sidebar">
@@ -457,11 +450,6 @@
 			</aside>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="profile">
-			<ul class="breadcrumb hidden-xs">
-				<li><a href="#">Manage</a></li>
-				<li><a href="#">Superadmin</a></li>
-				<li class="active">Util Objects</li>
-			</ul>
 			<aside class="main-sidebar">
 				<!-- sidebar -->
 				<div class="sidebar">
@@ -611,11 +599,6 @@
 			</aside>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="messages">
-			<ol class="breadcrumb hidden-xs">
-				<li><a href="#">Site Manage</a></li>
-				<li><a href="#">Manage</a></li>
-				<li class="active">Superadmin</li>
-			</ol>
 			<aside class="main-sidebar">
 				<!-- sidebar -->
 				<div class="sidebar">
@@ -789,12 +772,6 @@
 			</aside>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="settings">
-			<ol class="breadcrumb hidden-xs">
-				<li><a href="#">Superadmin</a></li>
-				<li><a href="#">Manage</a></li>
-				<li><a href="#">Site Manage</a></li>
-				<li class="active">Util Objects</li>
-			</ol>
 			<aside class="main-sidebar">
 				<!-- sidebar -->
 				<div class="sidebar">
